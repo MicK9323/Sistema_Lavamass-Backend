@@ -33,6 +33,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bd_springboot: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="lavamass: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
@@ -47,40 +53,74 @@
     <session id="1742967916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sql" value="373" />
+          <entry key="sql" value="1855" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="SQL" value="373" />
+          <entry key="SQL" value="1855" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="SCHEMA:lavamass" value="2" />
+          <entry key="customers" value="3" />
+          <entry key="params" value="2" />
+          <entry key="sql" value="4" />
+          <entry key="uml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="5" />
+          <entry key="SQL" value="4" />
+          <entry key="UML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LAVAMASS.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            <state relative-caret-position="192">
+              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DATA.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CUSTOMERS</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/90605b0a-ee91-44a5-addb-8cd88c66829d/console.sql" />
         <option value="$PROJECT_DIR$/LAVAMASS.sql" />
+        <option value="$PROJECT_DIR$/DATA.sql" />
       </list>
     </option>
   </component>
@@ -111,8 +151,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="last_opened_file_path" value="F:/SpellChecker-Dict-Spanish/spanish.dic" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,32 +166,129 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="F:\SpellChecker-Dict-Spanish" CustomDictionaries="1" CustomDictionary0="F:\SpellChecker-Dict-Spanish\spanish.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.17063493" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.17828843" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2830769" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16744915" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="5" visible="true" weight="0.32988167" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" visible="true" weight="0.3286385" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.1904762" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.20919175" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90605b0a-ee91-44a5-addb-8cd88c66829d/LAVAMASS.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90605b0a-ee91-44a5-addb-8cd88c66829d/console.sql" />
+    <entry file="file://$PROJECT_DIR$/lavamass-DER.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass</OriginalElement>
+          <nodes>
+            <node x="11.5" y="702.0">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.detail_ticket</node>
+            <node x="6.0" y="424.0">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.sell_tickets</node>
+            <node x="59.25" y="234.0">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders</node>
+            <node x="63.25" y="0.0">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.customers</node>
+            <node x="269.75" y="245.0">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.services</node>
+            <node x="227.0" y="479.0">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.order_detail</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.sell_tickets" target="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders">
+              <point x="0.0" y="-114.0" />
+              <point x="-47.25" y="70.0" />
+            </edge>
+            <edge source="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.order_detail" target="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders">
+              <point x="-46.75" y="-59.0" />
+              <point x="273.75" y="399.0" />
+              <point x="201.0" y="399.0" />
+              <point x="47.25" y="70.0" />
+            </edge>
+            <edge source="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders" target="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.customers">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.order_detail" target="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.services">
+              <point x="46.75" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.detail_ticket" target="90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.sell_tickets">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="114.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9694570135746605" x="-98.0" y="244.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/customers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass</OriginalElement>
+          <nodes>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.detail_ticket</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.user_roles</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.params</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.sell_tickets</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.order_detail</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.services</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.roles</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.users</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.46579476861167" x="459.0" y="487.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LAVAMASS.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="192">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/params">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
