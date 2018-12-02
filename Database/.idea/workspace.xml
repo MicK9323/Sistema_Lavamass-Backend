@@ -53,37 +53,45 @@
     <session id="1742967916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sql" value="1855" />
+          <entry key="cell" value="139" />
+          <entry key="sql" value="2058" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="SQL" value="1855" />
+          <entry key="SQL" value="2058" />
+          <entry key="Scratch" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="SCHEMA:lavamass" value="2" />
+          <entry key="SCHEMA:lavamass" value="4" />
           <entry key="customers" value="3" />
           <entry key="params" value="2" />
-          <entry key="sql" value="4" />
+          <entry key="roles" value="5" />
+          <entry key="sql" value="6" />
           <entry key="uml" value="1" />
+          <entry key="user_roles" value="2" />
+          <entry key="users" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="5" />
-          <entry key="SQL" value="4" />
-          <entry key="UML" value="3" />
+          <entry key="Database Element" value="17" />
+          <entry key="SQL" value="6" />
+          <entry key="UML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -93,17 +101,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LAVAMASS.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+            <state relative-caret-position="24">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DATA.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DATA.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/user_roles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/roles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -119,13 +154,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/90605b0a-ee91-44a5-addb-8cd88c66829d/console.sql" />
-        <option value="$PROJECT_DIR$/LAVAMASS.sql" />
         <option value="$PROJECT_DIR$/DATA.sql" />
+        <option value="$PROJECT_DIR$/LAVAMASS.sql" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1382" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectView">
@@ -133,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,14 +182,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="F:/SpellChecker-Dict-Spanish/spanish.dic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lavamass-DER.png" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -171,7 +208,7 @@
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.17828843" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.16957211" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -182,7 +219,7 @@
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.20919175" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.15293185" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
     </layout>
   </component>
@@ -244,40 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass</OriginalElement>
-          <nodes>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.detail_ticket</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.user_roles</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.params</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.sell_tickets</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.order_detail</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.services</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.roles</node>
-            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.users</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.46579476861167" x="459.0" y="487.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LAVAMASS.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/params">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -285,10 +288,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://DATABASE/90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>90605b0a-ee91-44a5-addb-8cd88c66829d.SCHEMA:lavamass</OriginalElement>
+          <nodes>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.detail_ticket</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.roles</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.user_roles</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.sell_tickets</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.order_detail</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.job_orders</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.services</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.params</node>
+            <node x="" y="">90605b0a-ee91-44a5-addb-8cd88c66829d.TABLE:lavamass.users</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5610236220472441" x="464.0" y="498.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DATA.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="379">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LAVAMASS.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://90605b0a-ee91-44a5-addb-8cd88c66829d/schema/lavamass/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
